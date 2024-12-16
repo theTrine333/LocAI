@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# LocAI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+LocAI is a user-friendly GUI for interacting with local language models running in Termux via Ollama. This app provides a sleek interface to communicate with LLMs, making it easier for users to send queries and view responses in an interactive, visually appealing format.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
+- **Local LLM Integration**: Seamless connection to language models hosted locally in Termux via Ollama.
+- **Interactive UI**: A modern interface for querying and receiving responses from models.
+- **Markdown Rendering**: Responses are displayed in rich Markdown for enhanced readability.
+- **Customizable Themes**: Switch between light and dark modes to suit your preferences.
+- **Real-Time Communication**: Supports HTTP and WebSocket connections for live interactions.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React Native with Expo
+- **Backend**: Termux-hosted LLMs via Ollama
+- **State Management**: Zustand
+- **Styling**: React Native Paper
+- **Markdown Rendering**: React Native Markdown Display
+- **Networking**: Axios, Socket.IO
+
+---
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   npm install
+   git clone https://github.com/theTrine333/locai.git
+   cd locai
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
