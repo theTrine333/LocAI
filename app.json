@@ -30,6 +30,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
+          "borderRadius": 26,
           "backgroundColor": "#ffffff"
         }
       ]
