@@ -1,9 +1,10 @@
-export interface chat{
-    time:string,
-    role:string,
-    message:string
+export interface Chat {
+  role: "system" | "user" | "assistant";
+  content: string;
+  time: string;
 }
-export interface storedChat{
-    time:string,
-    heading:string,
+
+export interface storedChat {
+  time: string;
+  heading: string;
 }

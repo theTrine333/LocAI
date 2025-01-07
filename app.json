@@ -2,7 +2,7 @@
   "expo": {
     "name": "LOCAI",
     "slug": "LOCAI",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tesla.locai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f68d576-2136-4cdf-92c3-f2479d6ec9b4"
+      }
+    },
+    "owner": "tesla254"
   }
 }
