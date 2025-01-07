@@ -1,4 +1,6 @@
-# LocAI
+# ![ICON](https://github.com/theTrine333/LocAI/blob/master/assets/images/icon.png)
+
+LocAI
 
 LocAI is a user-friendly GUI for interacting with local language models running in Termux via Ollama. This app provides a sleek interface to communicate with LLMs, making it easier for users to send queries and view responses in an interactive, visually appealing format.
 
