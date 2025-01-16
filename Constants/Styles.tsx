@@ -110,7 +110,7 @@ export const Styles = StyleSheet.create({
     borderRadius: 5,
     padding: 8,
     marginTop: 5,
-    width: width * 0.4,
+    width: width * 0.48,
     height: height * 0.05,
   },
   settingsHeader: {

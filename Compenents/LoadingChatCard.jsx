@@ -21,8 +21,8 @@ const LoadingChatCard = () => {
         height={40}
         color={Colors.primary}
         highlightColor="#A9A9A9"
-        duration={3000}
-        animationType={EanimationType.bounce}
+        duration={2000}
+        animationType={EanimationType.linear}
         style={[Styles.chat, { marginHorizontal: 0, marginTop: 0 }]}
         animationStyle={Styles.customAnimationStyle}
       />

@@ -10,7 +10,7 @@ const api = new OpenAI({
   baseURL,
 });
 
-export const main = async (userPrompt: string) => {
+export const main = async (userPrompt: any) => {
   const completion = await api.chat.completions.create({
     model: "gpt-4o",
     messages: [
@@ -22,8 +22,9 @@ export const main = async (userPrompt: string) => {
     temperature: 0.7,
     max_tokens: 256,
   });
+  console.log(completion.choices);
   const response = completion.choices[0].message.content;
   return response;
 };
 
-// main();
+// main("Hey");

@@ -26,7 +26,7 @@ export default function Settings() {
   return (
     <ScrollView contentContainerStyle={{ padding: 16 }}>
       {/* API Settings */}
-      {/* <Text style={Styles.settingsHeader}>API Settings</Text>
+      <Text style={Styles.settingsHeader}>API Settings</Text>
       <View style={Styles.settingsItem}>
         <Text>API Endpoint</Text>
         <TextInput
@@ -45,7 +45,7 @@ export default function Settings() {
           onChangeText={(value) => setTimeout(value.replace(/[^0-9]/g, ""))}
           placeholder="e.g. 30"
         />
-      </View> */}
+      </View>
 
       {/* Support */}
       <Text style={Styles.settingsHeader}>Support</Text>
