@@ -119,7 +119,7 @@ export const Styles = StyleSheet.create({
     marginVertical: 10,
   },
   chat: {
-    maxWidth: width * 0.8,
+    maxWidth: width * 0.9,
     marginTop: 5,
     borderRadius: 15,
     paddingHorizontal: 5,
